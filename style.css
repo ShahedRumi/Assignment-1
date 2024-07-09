@@ -5,14 +5,14 @@
     box-sizing: border-box;
     font-family: Azeret Mono;
 }
+body{
+    width:1440px;
+    border: 1px solid black;
+}
 section{
     width: 1140px;
     margin: 0 auto;
     margin-bottom: 100px;
-}
-body{
-    width:1440px;
-    border: 1px solid black;
 }
 p{
     font-size: 16px;
@@ -23,6 +23,9 @@ p{
 }
 a{
     color: black;
+}
+button{
+    cursor: pointer;
 }
 .text-box{
     width: 852px;
@@ -164,4 +167,32 @@ header{
 }
 .next-skill-image img{
     max-width: 100%;
+}
+/* ========================================================= */
+.support{
+    color: white;
+    border-radius: 16px;
+    height: 314px;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(assets/handshake.jpg);
+    padding: 64px 48px 64px 48px;
+    background-size: cover;
+    background-position: center;
+}
+.support input{
+    width: 548px;
+    height: 57px;
+    padding: 19px 20px 19px 20px;
+    border-radius: 8px;
+}
+.support button{
+    width: 120px;
+    height: 58px;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+.submit{
+    text-align: center;
 }
