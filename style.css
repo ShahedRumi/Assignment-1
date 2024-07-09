@@ -8,7 +8,7 @@
 section{
     width: 1140px;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 body{
     width:1440px;
@@ -20,6 +20,20 @@ p{
     line-height: 26px;
     opacity: 0.7;
     margin: 24px 0px;
+}
+a{
+    color: black;
+}
+.text-box{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    margin: 0 auto;
+}
+.text-box h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
 }
 /* ================================================================== */
 header{
@@ -68,13 +82,16 @@ header{
     background-color: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
 }
-.web-text h1{
+.text-box{
+    width: 852px;
+    height: 113px;
+    text-align: center;
+    margin: 0 auto;
+}
+.text-box h1{
     font-size: 32px;
     font-weight: 800;
     line-height: 37px;
-}
-.web-dev .web-text{
-    text-align: center;
 }
 .web-dev .web-box{
     display: flex;
@@ -84,7 +101,7 @@ header{
     padding: 48px;
     margin-top: 32px;
 } 
-.text-box{
+.web-text-box{
     width: 50%;
 }
 .web-box img{
@@ -101,9 +118,6 @@ header{
     color: white;
 }
 /* ============================================================== */
-.inspiration .inspiration-text{
-    text-align: center;
-}
 .inspiration-video{
     padding: 32px;
 }
@@ -114,12 +128,7 @@ header{
 .target-skills{
     display: flex;
     justify-content: space-between;
-}
-.current-target-text{
-    text-align: center;
-}
-.target-skills a{
-    color: black;
+    margin-top: 48px;
 }
 .target-skills div{
     width: 364px;
@@ -138,4 +147,21 @@ header{
 }
 .target-skills img{
     margin-bottom: 24px;
+}
+/* =========================================================== */
+.next-skill{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 24px;
+}
+.next-skill-image{
+    width: 130px;
+}
+.next-skill-image img{
+    max-width: 100%;
 }
