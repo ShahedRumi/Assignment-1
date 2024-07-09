@@ -8,11 +8,19 @@
 section{
     width: 85%;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 body{
     width:1440px;
     border: 1px solid black;
 }
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7; 
+}
+/* ================================================================== */
 header{
     background: url('assets/Hero-bg.png');
     background-repeat: no-repeat;
@@ -37,12 +45,6 @@ header{
     justify-content: center;
     gap: 48px;
 }
-.coverpage p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    opacity: 0.7;
-}
 .coverpage button{
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
@@ -50,3 +52,44 @@ header{
     color: white;
 }
 
+.coverpage button:hover{
+
+}
+/* ============================================================================= */
+.web-dev{
+    padding: 80px 97px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+}
+.web-dev-intro p{
+    margin: 24px 0px;
+}
+.web-text h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.web-dev .web-text{
+    text-align: center;
+}
+.web-dev .web-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+    margin-top: 32px;
+} 
+.text-box{
+    width: 50%;
+}
+.web-box img{
+    width: 250px;
+}
+.web-dev .web-box button{
+    padding: 10px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background: transparent;
+
+}
