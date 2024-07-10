@@ -106,10 +106,16 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(255, 255, 255);
     padding: 48px;
     margin-top: 32px;
+    border-radius: 16px;
+}
+.web-dev .web-box-1{
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 } 
+.web-dev .web-box-2{
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%); 
+}
 .web-text-box{
     width: 50%;
 }
@@ -127,9 +133,11 @@ header{
     color: white;
 }
 /* =======================Inspiration Section=================================== */
-
 .inspiration-video{
-    padding: 32px;
+    margin-top: 40px;
+    padding: 30px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
 }
 .inspiration-video iframe{
     border-radius: 16px;
