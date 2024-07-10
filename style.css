@@ -1,3 +1,6 @@
+
+/* ========================Universal CSS======================================= */
+
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
@@ -7,7 +10,6 @@
 }
 body{
     width:1440px;
-    border: 1px solid black;
 }
 section{
     width: 1140px;
@@ -38,7 +40,9 @@ button{
     font-weight: 800;
     line-height: 37px;
 }
-/* ================================================================== */
+
+/* ===========================Cover page=========================================== */
+
 header{
     background: url('assets/Hero-bg.png');
     background-repeat: no-repeat;
@@ -79,7 +83,9 @@ header{
     background: transparent;
     color: black;
 }
-/* ============================================================================= */
+
+/* ============================Wd-dev Section========================================== */
+
 .web-dev{
     padding: 80px 97px;
     background-color: rgba(13, 19, 33, 0.02);
@@ -120,14 +126,17 @@ header{
     background-color: rgb(13, 19, 33);
     color: white;
 }
-/* ============================================================== */
+/* =======================Inspiration Section=================================== */
+
 .inspiration-video{
     padding: 32px;
 }
 .inspiration-video iframe{
     border-radius: 16px;
 }
-/* ===================================================================== */
+
+/* =======================Target-Skills Section========================================== */
+
 .target-skills{
     display: flex;
     justify-content: space-between;
@@ -135,7 +144,6 @@ header{
 }
 .target-skills div{
     width: 364px;
-    height: 299px;
     padding: 40px;
     border-radius: 16px;
 }
@@ -151,7 +159,9 @@ header{
 .target-skills img{
     margin-bottom: 24px;
 }
-/* =========================================================== */
+
+/* =========================Next-Skill Section==================================== */
+
 .next-skill{
     display: flex;
     align-items: center;
@@ -168,7 +178,9 @@ header{
 .next-skill-image img{
     max-width: 100%;
 }
-/* ========================================================= */
+
+/* =======================Support Section===================================== */
+
 .support{
     color: white;
     border-radius: 16px;
@@ -195,4 +207,25 @@ header{
 }
 .submit{
     text-align: center;
+}
+
+/* =============================Footer============================================= */
+
+footer{
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 150px 32px 150px;
+}
+#footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-media-links{
+    display: flex;
+    gap: 27px;
+}
+.social-media-links img{
+    width: 40px;
 }
