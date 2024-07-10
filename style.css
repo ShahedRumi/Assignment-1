@@ -193,7 +193,7 @@ header{
     color: white;
     border-radius: 16px;
     height: 314px;
-    background: linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(assets/handshake.jpg);
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('assets/handshake.jpg');
     padding: 64px 48px 64px 48px;
     background-size: cover;
     background-position: center;
@@ -202,6 +202,7 @@ header{
     width: 548px;
     height: 57px;
     padding: 19px 20px 19px 20px;
+    margin-right: 10px;
     border-radius: 8px;
 }
 .support button{
@@ -212,6 +213,17 @@ header{
     background: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
+    border: transparent
+}
+.support .input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support button:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
 }
 .submit{
     text-align: center;
